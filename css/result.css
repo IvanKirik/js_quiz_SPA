@@ -1,0 +1,55 @@
+.result {
+    padding: 140px 0 91px 0;
+    text-align: center;
+}
+.result .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.result-image {
+    position: absolute;
+    top: 225px;
+    z-index: -1;
+}
+.result-tittle {
+    max-width: 588px;
+    margin-bottom: 60px;
+}
+.result-score {
+    background-image: url("../img/result.png");
+    background-size: cover;
+    background-position: center;
+    width: 480px;
+    height: 388px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Museo Sans Cyrl 500", sans-serif;
+    font-size: 158px;
+    line-height: 190px;
+    color: #FFFFFF;
+}
+.result-link .container {
+    display: flex;
+    justify-content: right;
+}
+.result-link {
+    margin-top: 80px;
+}
+.result-link .container a span {
+    font-size: 17px;
+    line-height: 20px;
+    color: #6933DC;
+    margin-right: 13px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.result-link .container a {
+    text-decoration: none;
+}
+.result-link .container a img {
+    display: inline-block;
+    vertical-align: middle;
+}

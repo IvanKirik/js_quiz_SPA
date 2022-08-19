@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Museo Sans Cyrl 500", sans-serif;
+    color: #333333;
+}
+@font-face {
+    font-family: "Museo Sans Cyrl 500";
+    src: url("../fonts/MuseoSansCyrl-500.ttf");
+}
+@font-face {
+    font-family: "Museo Sans Cyrl 700";
+    src: url("../fonts/MuseoSansCyrl-700.ttf");
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+a {
+    color: #5a2dbe;
+}
+.header {
+    padding: 42px 0 40px 0;
+    border-bottom: 1px solid #DCDCF3;
+}
+.button {
+    padding: 14px 35px;
+    font-size: 17px;
+    color: #fff;
+    background-color: #6933DC;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: .4s;
+    text-decoration: none;
+}
+a.button {
+    display: inline-block;
+}
+.button:hover {
+    background-color: #5a2dbe;
+}
+.button:disabled {
+    cursor: not-allowed;
+    background-color: #e2dfe7;
+}
+.footer {
+    padding: 40px 0;
+}
+.footer .container {
+    display: flex;
+    justify-content: center;
+}
+.copyright {
+    font-family: 'Museo Sans Cyrl', sans-serif;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #DCDCF3;
+}
+.tittle {
+    font-family: 'Museo Sans Cyrl 700', sans-serif;
+    font-size: 54px;
+    line-height: 65px;
+
+}
+.tittle span {
+    font-family: 'Museo Sans Cyrl 700', sans-serif;
+    font-size: 54px;
+    line-height: 65px;
+    color: #6933DC;
+}
